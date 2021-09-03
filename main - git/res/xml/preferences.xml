@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="User identification">
+
+        <EditTextPreference
+            android:defaultValue="@string/pref_def_nickname"
+            android:key="pref_nickname"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:summary="@string/pref_sum_nickname"
+            android:title="@string/pref_title_nickname" />
+        <EditTextPreference
+            android:defaultValue="@string/pref_def_altnickname"
+            android:key="pref_altnickname"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:summary="@string/pref_sum_altnickname"
+            android:title="@string/pref_title_altnickname" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Files and directories">
+
+        <EditTextPreference
+            android:key="pref_dlfolder"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:summary="@string/pref_sum_dlfolder"
+            android:title="@string/pref_title_dlfolder" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Searching and IRC features">
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="pref_clearonsearch"
+            android:title="Clear search results on new search" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="pref_iniateonsearch"
+            android:title="Initiate connections only on first search" />
+    </PreferenceCategory>
+</PreferenceScreen>

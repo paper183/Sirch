@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="info.px0.paper.tabsui.MainTabsUI" >
+
+    <item android:id="@+id/action_search"
+        android:title="@string/action_search"
+        android:queryHint="@string/search_hint"
+        android:icon="@drawable/ic_search_white_24px"
+        app:showAsAction="ifRoom|collapseActionView"
+        app:actionViewClass="android.support.v7.widget.SearchView" />
+
+    <item android:id="@+id/action_clearsearch"
+        android:title="@string/action_clearsearch"
+        android:icon="@drawable/ic_clear_all_white_24px"
+        app:showAsAction="ifRoom" />
+
+    <item android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+</menu>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_settings">Paramètres</string>
+    <string name="action_search">Rechercher fichier</string>
+    <string name="search_hint">Entrez une partie du nom du fichier (Ex: chanson, artiste)</string>
+    <string name="action_clearsearch">Effacer les résultats</string>
+    <string name="pref_title_nickname">Surnom</string>
+    <string name="pref_title_altnickname">Surnom alternatif</string>
+    <string name="pref_sum_nickname">"Visible par les autre utilisateurs: "</string>
+    <string name="pref_sum_altnickname">"Utilisé si le surnom est déjà pris: "</string>
+    <string name="pref_title">Paramètres</string>
+    <string name="btn_ok">OK</string>
+    <string name="delayed_connect">Connexion aux serveurs.</string>
+    <string name="dialog_msg_defnick">Veuillez entrer des surnoms uniques dans les paramètres en utilisant seulement des lettres et des chiffres. Votre surnom sera visible par les autre utilisateurs dans les salons de clavardage IRC.</string>
+    <string name="dialog_msg_invalidnick">Votre surnom contient des charactères invalides, veuillez utiliser seulement des lettres et des chiffres sans espaces. Votre surnom sera visible par les autre utilisateurs dans les salons de clavardage IRC.</string>
+    <string name="dialog_title_nick">Paramètres surnoms</string>
+    <string name="dl_st_accepted">Accepté. En file d\'attente.</string>
+    <string name="dl_st_completed">Complété.</string>
+    <string name="dl_st_denied">Requête refusée.</string>
+    <string name="dl_st_downloading">Téléchargement:</string>
+    <string name="dl_st_error">Une erreur est survenue. Le fichier peu être incomplet.</string>
+    <string name="dl_st_incoming">Fichier entrant&#8230;</string>
+    <string name="dl_st_requested">Demandé. En attente d\'une réponse&#8230;</string>
+    <string name="dl_st_waiting">En attente&#8230;</string>
+    <string name="file_title_opfailed">Échec de l\'opération du fichier</string>
+    <string name="pref_sum_dlfolder">Dossier:</string>
+    <string name="pref_title_dlfolder">Dossier de téléchargement</string>
+    <string name="result_from">"Utilisateur: "</string>
+    <string name="tab_downloads">Téléchargements</string>
+    <string name="tab_results">Résultats</string>
+    <string name="dl_st_reversedcc">DCC renversé non supporté. Essayez un autre utilisateur.</string>
+    <string name="first_title">Information importante</string>
+    <string name="first_msg">Ce logiciel est fournis tel quel. Votre surnom choisi, les requêtes de recherche et votre adresse IP peuvent être visible par les autre utilisateurs des serveurs IRC. L\'application ne permet pas le partage de vos propre fichiers. Veuillez utiliser cette application de façon responsable.\n\nLes utilisateurs envoient un nombre limité de résultats si votre recherche est trop large. Soyez plus spécifique si le fichier recherché n\'apparait pas.</string>
+    <string name="err_nickname">Le serveur a refusé vos deux surnoms. Modifiez les dans les paramètres et essayez de nouveau.</string>
+</resources>

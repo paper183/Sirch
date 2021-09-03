@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:padding="4dip" >
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_alignParentTop="true"
+        android:contentDescription="Icon"
+        android:src="@drawable/ic_audiotrack_black_24dp"
+        android:layout_above="@+id/secondLine"
+        android:paddingStart="0dp"
+        android:paddingLeft="0dp"
+        android:paddingEnd="2dp"
+        android:paddingRight="2dp"
+        android:scaleType="center"
+        android:layout_height="match_parent"
+        android:layout_width="24dp" />
+
+    <TextView
+        android:text="from"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fromLine"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/firstLine"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/firstLine"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_toRightOf="@id/icon"
+        android:layout_toEndOf="@id/icon"
+        android:gravity="center_vertical"
+        android:text="Example application"
+        android:textSize="14sp"
+        android:maxLines="2"
+        android:ellipsize="end" />
+
+    <TextView
+        android:id="@+id/secondLine"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="marquee"
+        android:maxLines="1"
+        android:text="Description"
+        android:textSize="12sp"
+        android:layout_below="@+id/firstLine"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_toLeftOf="@+id/fromLine"
+        android:layout_toStartOf="@+id/fromLine" />
+
+
+</RelativeLayout>
+

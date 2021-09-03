@@ -1,0 +1,55 @@
+<resources>
+
+    <string name="app_name" translatable="false">Sirch</string>
+
+    <string name="tab_results">Results</string>
+    <string name="tab_downloads">Downloads</string>
+
+    <string name="delayed_connect">Connecting to servers.</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_search">Search file</string>
+    <string name="action_clearsearch">Clear results</string>
+    <string name="search_hint">Type in part of the filename (Ex: song, artist)</string>
+
+    <string name="pref_title">Settings</string>
+
+    <string name="pref_title_nickname">Nickname</string>
+    <string name="pref_def_nickname" translatable="false">SirchUser</string>
+    <string name="pref_sum_nickname">Visible to other users: </string>
+
+    <string name="pref_title_altnickname">Alternative nickname</string>
+    <string name="pref_def_altnickname" translatable="false">SirchUserAlt</string>
+    <string name="pref_sum_altnickname">Used if nickname is taken: </string>
+
+    <string name="pref_title_dlfolder">Download folder</string>
+    <string name="pref_def_dlfolder" translatable="false">/Download/</string>
+    <string name="pref_sum_dlfolder">Folder: </string>
+
+    <string name="btn_ok">OK</string>
+
+    <string name="dialog_title_nick">Nicknames settings</string>
+    <string name="dialog_msg_defnick">Please enter unique nicknames in settings using only numbers and letters. Your nickname will be visible to other users in the IRC chat rooms.</string>
+    <string name="dialog_msg_invalidnick">Your nickname contains invalid characters, please only use numbers and letters without spaces. Your nickname will be visible to other users in the IRC chat rooms.</string>
+
+    <string name="result_from">User:</string>
+
+    <string name="file_title_opfailed">File operation failed</string>
+
+    <string name="first_title">Important information</string>
+    <string name="first_msg">This software is provided as is. Your chosen nickname, search requests and ip address might be visible to other users on the IRC servers. This app does not allow you to share your own files. Please use responsibly.\n\nUsers send a limited amount of results if your search is too broad. Try being more specific if you cannot find what you are looking for.</string>
+
+    <string name="err_nickname">Server refused both nicknames. Change them in settings and try again.</string>
+
+    <string name="dl_st_waiting">Waiting&#8230;</string>
+    <string name="dl_st_requested">Requested. Awaiting response&#8230;</string>
+    <string name="dl_st_incoming">File incoming&#8230;</string>
+    <string name="dl_st_downloading">Downloading:</string>
+    <string name="dl_st_completed">Completed.</string>
+    <string name="dl_st_accepted">Accepted. In queue.</string>
+    <string name="dl_st_denied">Request denied.</string>
+    <string name="dl_st_error">An error occurred. File might be incomplete.</string>
+    <string name="dl_st_reversedcc">Reverse DCC unsupported, try another user.</string>
+
+
+</resources>
